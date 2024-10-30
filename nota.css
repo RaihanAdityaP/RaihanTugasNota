@@ -1,0 +1,169 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url(market-cashier.jpeg)  
+    no-repeat fixed;
+    background-size: cover;
+    opacity: 0.8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    margin: 0; 
+}
+
+.form-container {
+    background-color: deepskyblue;
+    padding: 70px 70px; 
+    border-radius: 50px;
+    width: 70%; 
+    color: whitesmoke;
+    text-align: justify;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3); 
+    margin-top: 20%;
+    margin-bottom: 20%;
+    overflow: hidden; 
+}
+
+.form-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    border-bottom: 2px dashed white; 
+    padding-bottom: 8px; 
+    display: inline-block; 
+    width: 100%;
+}
+
+.form-container p.menu-title {
+    font-size: 18px; 
+    margin: 20px 0 10px; 
+    text-align: left; 
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+}
+
+.form-group input[type="text"],
+.form-group input[type="number"],
+.form-group input[type="date"],
+.form-group select {
+    width: 100%; 
+    padding: 8px;
+    margin-top: 5px;
+    border: none;
+    border-radius: 4px;
+}
+
+.menu-container {
+    display: flex;
+    flex-direction: column; 
+}
+
+.custom-placeholder::placeholder {
+    color: black; 
+    opacity: 1; 
+    font-style: italic; 
+}
+
+.nasi-goreng {
+    display: flex;
+    align-items: left; 
+    justify-content: space-between;
+    margin-bottom: 10px; 
+}
+
+.nasi-goreng input[type="number"] {
+    width: 85%;
+    height: 10%;
+    background-color: wheat;
+}
+
+.mie-goreng {
+    display: flex;
+    align-items: left; 
+    justify-content: space-between;
+    margin-bottom: 10px; 
+}
+
+.mie-goreng input[type="number"] {
+    width: 85%;
+    height: 10%;
+    background-color: burlywood;
+}
+
+.es-teh {
+    display: flex;
+    align-items: left; 
+    justify-content: space-between;
+    margin-bottom: 10px; 
+}
+
+.es-teh input[type="number"] {
+    width: 85%;
+    height: 10%;
+    background-color: rgb(186, 105, 38);
+}
+
+.matcha {
+    display: flex;
+    align-items: left; 
+    justify-content: space-between;
+    margin-bottom: 10px; 
+}
+
+.matcha input[type="number"] {
+    width: 85%;
+    height: 10%;
+    background-color: rgb(38, 170, 38);
+}
+
+.pembayaran-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.pembayaran-group label {
+    margin-right: 5px; 
+}
+
+.pembayaran-group input[type="radio"] {
+    margin-right: 5px; 
+}
+
+.button-group {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.button-group button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 10px; 
+}
+
+@media (max-width: 500px) {
+.container {
+  width: 50vh;
+  margin: auto;
+            }
+}
+
+.button-clear {
+    background-color: #d9534f;
+    color: #fff;
+}
+
+.button-send {
+    background-color: #5cb85c;
+    color: #fff;
+}
